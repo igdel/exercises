@@ -1,6 +1,6 @@
-# Frontend Development Exercises for Georgina
+# Frontend Development Exercises
 
-Welcome to the Frontend Development Exercises for Georgina repository! This collection of projects is designed to help you improve your skills in HTML, CSS, and JavaScript through hands-on practice.
+Welcome to the Frontend Development Exercises repository! This collection of projects is designed to help you improve your skills in HTML, CSS, and JavaScript through hands-on practice.
 
 ## Projects
 
@@ -16,7 +16,7 @@ Each project has its own directory with a specific README file containing detail
 
 1. Clone this repository to your local machine:
    ```
-   git clone https://github.com/igdel/exercises-for-georgina.git
+   git clone https://github.com/igdel/exercises.git
    ```
 2. Navigate to the project directory you want to work on.
 3. Read the project-specific README for detailed instructions.
