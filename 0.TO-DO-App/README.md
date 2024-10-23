@@ -2,6 +2,27 @@
 
 Welcome to the Todo List project! This exercise will help you practice your HTML, CSS, and JavaScript skills while also learning how to use Git and GitHub for version control.
 
+![Thumbnail preview](images/thumbnail.png)
+
+## Project Preview Images
+
+The application has different states represented by these preview images:
+
+1. **Default View (Thumbnail)**
+   ![Default todo list view](images/thumbnail.png)
+   - Shows the basic layout of the todo list
+   - Displays the input form, todo items, and statistics
+
+2. **Empty State**
+   ![Empty todo list](images/empty.png)
+   - Displayed when there are no todos
+   - Shows a friendly message encouraging users to add their first todo
+
+3. **Ordered Todos**
+   ![Ordered todo list](images/order.png)
+   - Shows how todos are displayed in order
+   - Demonstrates completed and uncompleted todo items
+
 ## Project Setup
 
 ### 1. Create a GitHub Repository
@@ -29,6 +50,10 @@ Create the following files in your local repository:
 - `index.html`
 - `styles.css`
 - `script.js`
+- `images/` directory containing:
+   - `thumbnail.png` - Default view of the application
+   - `empty.png` - Empty state display
+   - `order.png` - Ordered todos display
 
 ## Development Process
 
@@ -40,6 +65,7 @@ Create the basic HTML structure for your todo list in `index.html`. Include:
 - A form with an input field and a submit button for adding new todos
 - An unordered list to display the todos
 - A section for showing todo statistics
+- An empty state message that shows when there are no todos
 
 ### 2. Style Your Application
 
@@ -48,6 +74,7 @@ Add CSS styles in `styles.css` to make your todo list visually appealing. Consid
 - Styling for the form and input field
 - Styles for todo items, including a completed state
 - Styling for buttons (add, delete, complete)
+- Empty state styling
 
 ### 3. Implement Add Todo Functionality
 
@@ -56,6 +83,7 @@ In `script.js`, write the JavaScript to allow adding new todos:
 - Add an event listener to the form
 - Create a function to add a new todo
 - Update the DOM with the new todo
+- Handle the empty state display
 
 ### 4. Implement Complete and Delete Functionality
 
@@ -63,6 +91,7 @@ Add the ability to mark todos as complete and delete them:
 - Use event delegation on the todo list
 - Implement functions to toggle completion and delete todos
 - Update the DOM accordingly
+- Show empty state when all todos are deleted
 
 ### 5. Implement Local Storage
 
@@ -138,9 +167,9 @@ When you've completed the project:
 1. Ensure all your changes are committed and pushed to GitHub.
 2. Deploy your project to GitHub Pages or another hosting service.
 3. Update this README with:
-    - A brief description of your project
-    - Any challenges you faced and how you overcame them
-    - What you learned from this project
-    - A link to the live demo of your application
+   - A brief description of your project
+   - Any challenges you faced and how you overcame them
+   - What you learned from this project
+   - A link to the live demo of your application
 
 Good luck, and happy coding!

@@ -10,20 +10,20 @@ Here's a basic HTML structure you can use as a starting point:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
-    <link rel="stylesheet" href="styles.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Todo List</title>
+   <link rel="stylesheet" href="student-solution/styles.css">
 </head>
 <body>
-    <h1>Todo List</h1>
-    <form id="todo-form">
-        <input type="text" id="todo-input" placeholder="Enter a new todo" required>
-        <button type="submit">Add</button>
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="stats"></div>
-    <script src="script.js"></script>
+<h1>Todo List</h1>
+<form id="todo-form">
+   <input type="text" id="todo-input" placeholder="Enter a new todo" required>
+   <button type="submit">Add</button>
+</form>
+<ul id="todo-list"></ul>
+<div id="stats"></div>
+<script src="student-solution/script.js"></script>
 </body>
 </html>
 ```
