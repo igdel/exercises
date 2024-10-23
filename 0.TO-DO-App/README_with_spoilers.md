@@ -13,7 +13,7 @@ Here's a basic HTML structure you can use as a starting point:
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Todo List</title>
-   <link rel="stylesheet" href="student-solution/styles.css">
+   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 <h1>Todo List</h1>
@@ -23,7 +23,7 @@ Here's a basic HTML structure you can use as a starting point:
 </form>
 <ul id="todo-list"></ul>
 <div id="stats"></div>
-<script src="student-solution/script.js"></script>
+<script src="/script.js"></script>
 </body>
 </html>
 ```
